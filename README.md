@@ -48,3 +48,28 @@ command
 > dotnet new console -o DemoApp
 
 > dotnet sln add DemoApp
+
+>dotnet new classlib
+
+>dotnet sln add DemoLib
+
+> cd DemoLib
+
+>dotnet add package Dapper
+
+> cd ..
+
+> cd DemoApp
+
+> dotnet add reference ../DemoLib/DemoLib.csproj
+
+>dotnet restore
+
+> dotnet build
+
+>dotnet clean
+
+>dotnet publish -p:PublishSngleFile=true -r win-x64 --self-contained false        #for using ms build tools/properties
+
+
+
