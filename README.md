@@ -29,4 +29,22 @@ Above the core components, you have the different application model frameworks, 
 <br>
 .NET offers you support for most of the common programming tasks: from file management to network communication, from security to database access. For example, on the networking side, it supports socket programming, HTTP communication, and gRPC. This allows you to create microservices with the protocol that better fits your needs.
 <br> 
-for more information visit blog - [link](https://auth0.com/blog/what-is-dotnet-platform-overview/)
+for more information visit blog [link](https://auth0.com/blog/what-is-dotnet-platform-overview/)
+<br>
+
+### .NET CLI
+
+The .NET CLI is a command-line interface that allows you to create, build, and run .
+
+> dotnet new gitignore
+
+command
+<br>
+
+> dotnet new -h
+
+> dotnet new --list
+
+> dotnet new console -o DemoApp
+
+> dotnet sln add DemoApp
